@@ -8,7 +8,7 @@ export default function SearchInput({ value, setValue, toggleModal }: SearchType
   return (
     <div className="flex flex-col gap-2 p-3 border-b border-black-300">
       <div className="flex justify-end">
-        <button onClick={toggleModal} className="text-lg font-bold px-2 py-2 border-black">
+        <button onClick={toggleModal} className=" hover:scale-110 text-lg font-bold px-2 py-2 border-black">
           ×
         </button>
       </div>
