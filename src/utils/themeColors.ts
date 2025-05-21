@@ -4,6 +4,6 @@ export const themeColors = [
   { name: "red", background: "#dc2626", foreground: "green" },
   { name: "blue", background: "#2563eb", foreground: "red" },
   { name: "green", background: "#16a34a", foreground: "blue" },
-] as const;
+];
 
 export type ThemeColor = (typeof themeColors)[number]; 
